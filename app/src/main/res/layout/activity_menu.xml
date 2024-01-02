@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="50dp">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNomeUsuario" />
+
+    <Button
+        android:id="@+id/btnMeusDados"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Meus Dados"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:id="@+id/btnCadastrarContatos"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Contatos"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:id="@+id/btnPedido"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Pedido"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:id="@+id/btnAgendar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Agendar Serviços"
+        android:layout_marginTop="40dp"/>
+    <Button
+        android:id="@+id/btnListaAgendamento"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Listar Agendamentos"
+        android:layout_marginTop="40dp"/>
+
+</LinearLayout>
